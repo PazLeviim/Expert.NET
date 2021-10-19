@@ -1,0 +1,299 @@
+﻿#menu{
+    display:block;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    background-color:black;
+    font-size:25px;
+    color:silver;
+    font-weight:900;
+    width:130px;
+}
+.no_menu{
+    direction:rtl;
+}
+.menu,li{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+}
+.menu:hover:not(#home){
+    color:black;
+    background-color:white;
+    width:130px;
+    text-align:center;
+}
+#home{
+    text-align:center;
+    background-color:#009df8;
+    color:white;
+    display:inline-block;
+    width:130px;
+}
+#home_logo{
+    position:relative;
+    top:5px;
+}
+.main{
+    color:gold;
+    font-size:400%;
+    position:relative;
+    right:50px;
+}
+#cont,#cont_home{
+    direction:rtl;
+}
+#cont{
+    position:relative;
+    top:50px;
+}
+#cont_home{
+    position:relative;
+    top:-170px;
+}
+.mail{
+    font-size:150%;
+    text-decoration:none;
+    color:#fff;
+    position:relative;
+    right:40px;
+}
+h1{
+    color:Highlight;
+    font-size:30px;
+}
+.p{
+    text-decoration:none;
+    font-size:30px;
+    color:#002cfe;
+    display:inline-block;
+    list-style-type:none;
+    position:relative;
+    right:40px;
+}
+.p:hover{
+    color:#fff;
+    background-color:Highlight;
+    display:inline-block;
+}
+#block{
+    display:block;
+}
+#p1,#p2,#p3,#p4{
+    position:relative;
+    right:40px;
+}
+.img_sites{
+     height:100px;
+     width:100px;
+     border-radius:20%;
+ }
+#img_sites1{
+    position:relative;
+    right:30px;
+}
+#img_sites2{
+    position:relative;
+    right:75px;
+}
+#img_sites3{
+    position:relative;
+    right:120px;
+}
+#img_sites4{
+    position:relative;
+    right:165px;
+}
+#img_sites5{
+    position:relative;
+    right:210px;
+}
+#img_sites6{
+    position:relative;
+    right:255px;
+}
+#img_sites7{
+    position:relative;
+    right:300px;
+}
+#img_sites8{
+    position:relative;
+    right:345px;
+}
+#img_sites9{
+    position:relative;
+    right:390px;
+}
+ol,li{
+    font-size:25px;
+}
+h2{
+    position:relative;
+    right:40px;
+    color:white;
+}
+.cp{
+    direction:rtl;
+    font-size:25px;
+    position:relative;
+    right:40px;
+}
+p{
+    direction:rtl;
+    position:relative;
+    top:-120px;
+}
+#cp2{
+    font-weight:900;
+}
+.golden_international{
+    position:relative;
+    top:-220px;
+    width:350px;
+    height:250px;
+    left:100px;
+}
+#inter{
+    position:relative;
+    left:450px;
+    top:-80px;
+}
+#logo_in_shoping,#logo_in_about,#logo_in_home{
+    width:300px;
+    height:200px;
+}
+#logo_in_shoping{
+    position:relative;
+    top:-80px;
+}
+#logo_in_home,#logo_in_about{
+    position:relative;
+    top:-130px;
+}
+#about{
+    background-image:url('Pictures/About Image.jpg');
+    color:white;
+}
+#cont_about{
+    position:relative;
+    top:-130px;
+}
+#search_button{
+    background-color:Highlight;
+    height:37px;
+    width:50px;
+    position:relative;
+    top:-255px;
+}
+.search{
+    border-color:Highlight;
+    border-radius:3px;
+    height:30px;
+    position:relative;
+    right:650px;
+    top:-260px;
+}
+#main_products{
+    position:relative;
+    top:-80px;
+}
+.description{
+    direction:rtl;
+}
+.price{
+    color:Highlight;
+}
+.product_image{
+    position:relative;
+    left:200px;
+}
+.price_detail{
+    position:relative;
+    right:500px;
+}
+.description{
+    position:relative;
+    right:200px;
+}
+.products,#last_product{
+    width:1200px;
+    position:relative;
+    left:100px;
+}
+.products{
+    border-top:solid 1px #eee;
+}
+#last_product{
+    border-bottom:solid 1px #eee;
+}
+#hot_product{
+    color:firebrick;
+    font-size:50px;
+}
+#hot{
+    border:solid 2px #eee;
+    width:500px;
+}
+#hot_product{
+    position:relative;
+    left:150px;
+}
+#link_hot{
+    text-decoration:none;
+    color:black;
+}
+#product_image{
+    position:relative;
+    right:200px;
+}
+.welcome{
+    position:relative;
+    right:600px;
+    top:-150px;
+    font-size:18px;
+}
+.image{
+    height:20px;
+    width:20px;
+    border:solid 2px;
+    border-color:firebrick;
+    border-radius:50%;
+    display:block;
+    position:relative;
+    top:50px;
+}
+#image1{
+    right:130px;
+    background-color:firebrick;
+}
+#image2{
+    right:65px;
+}
+#image4{
+    left:65px;
+}
+#image5{
+    left:130px;
+}
+.time{
+    font-size:20px;
+    position:relative;
+    right:100px;
+}
+#timenow{
+    right:108px;
+}
+#account {
+    color: white;
+    background-color: #9b9898;
+    border-radius: 3px;
+    text-decoration: none;
+    position: relative;
+    right: 350px;
+    top: -210px;
+}
+#to_connect{
+    position:relative;
+    text-align:center;
+    top:50px;
+}
